@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products-Mini Cart</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/jpeg" href="./favicon/apple-touch-icon.png">
+    </head>
+
+    <body>
+        
+
+
+
+    <div class="container">
+    <!----------- Logo ----------------->
+
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="./images/karttt.png" class="logo-my"></a>
+                <!------xx----- Logo -------xx---------->
+            </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <a href="cart.html"><img src="./images/cart.png" width="30px" height="30px" class="cart"></a>
+                <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+        
+    </div>
+
+
+ 
+ 
+   
+    <div class="small-container">
+       <div class="row row-2">
+           <h2>All Products</h2>
+           <select class="hvr">
+               <option>Default Sorting</option>
+               <option>Sort by Price</option>
+               <option>Sort by Popularity</option>
+               <option>Sort by Rating</option>
+               <option>Sort by Sale</option>
+           </select>
+       </div>
+       <div class="row">
+        <div class="col-4">
+            <a href="productsdetail.html"><img src="./images/product-1.jpg"></a>
+            <a href="productsdetail.html"><h4>Red Printed Tshirt</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-2.jpg">
+            <h4>BLack Running Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 1100.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-3.jpg">
+            <h4>Gray Men's Track Pant</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 700.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-4.jpg">
+            <h4>Navy Plain T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 900.00</p>
+        </div>
+
+    </div>
+    
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/product-5.jpg">
+            <h4>Men's Casual Canvas</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 1500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-6.jpg">
+            <h4>Men Black Round Neck T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 750.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-7.jpg">
+            <h4>Set of 3 Ankle-Length Socks</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 399.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-8.jpg">
+            <h4>Fossil Men Analogue Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 7850.00</p>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/product-9.jpg">
+            <h4>RDSTR Men Analogue Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 1900.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-10.jpg">
+            <h4>Black & Red Outdoor Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 3200.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-11.jpg">
+            <h4>RDSTR Running Shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 1950.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/product-12.jpg">
+            <h4>NIKE track pant</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p><i class="fa fa-inr" aria-hidden="true"></i> 1100.00</p>
+        </div>
+
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span> &#8594;</span>
+        </div>
+     </div>
+
+
+        <!------------------------ foooter -------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android And ios mobile phone</p>
+                        <div class="app-logo">
+                            <img src="./images/play-store.png">
+                            <img src="./images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./images/Mini Kart (2).png">
+                        <p>Our Purpose Is To Sustainably Make the Pleasure and 
+                            Benefits of Sports Accessible to the Many
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">© 2020 www.mini cart.com . All rights reserved.</p>
+            </div>
+        </div>
+        <!-- --------js ------------------>
+        <script>
+            var menuitems = document.getElementById("menuitems");
+            menuitems.style.maxHeight="0px";
+            function menutoggle(){
+                if( menuitems.style.maxHeight=="0px")
+                {
+                    menuitems.style.maxHeight="200px";
+                }
+                else{
+                    menuitems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
